@@ -2,9 +2,8 @@
 
 A **Resilient and Reliable Key Management Framework** for DID-Based Decentralized Environments.
 
----
 
-## ✨ Overview
+✨ Overview
 
 **Key-Audit-Chain (KAC)** is an integrated authentication framework designed to enhance trust, key security, and auditability in Self-Sovereign Identity (SSI) environments.  
 It addresses critical challenges such as:
@@ -13,9 +12,7 @@ It addresses critical challenges such as:
 - Trusted Third Party (TTP)-based auditing
 - Multi-VC validation for complex scenarios
 
----
-
-## 📌 Features
+📌 Features
 
 - 🔐 **Threshold Signature:** Secure key generation & signing with the FROST algorithm.
 - 📑 **Multi-VC Validation:** Pre-verify multiple credentials before Verifiable Presentation (VP) generation.
@@ -23,7 +20,7 @@ It addresses critical challenges such as:
 - 🤝 **Interoperability:** WACI-based protocol compliance for compatibility with diverse SSI ecosystems.
 - 🔄 **Key Lifecycle Management:** Support for key revocation, recovery, and real-time status checks.
 
----
+
 
 ## ⚙️ Installation
 
@@ -59,6 +56,7 @@ Key-Audit-Chain/
  ├── requirements.txt    # Python dependencies
  └── manage.py           # Entry point for running the framework
 
+
 🛡️ Security Considerations
 Uses FROST for round-optimized Schnorr threshold signatures.
 All signature and key management metadata is logged via a TTP.
@@ -68,8 +66,13 @@ Supports risk scoring and anomaly detection for identity spoofing prevention.
 📄 License
 This project is licensed under the MIT License. See LICENSE for details.
 
+
 ✏️ Authors
 Jihwan Kim — Seoul National University of Science and Technology
 Younho Lee — Professor, SeoulTech
 Dae-seon Choi — Professor, Soongsil University
  
+
+📬 Contact & Info  
+For any inquiries related to this project, please contact Jihwan Kim at jihwan0724@gmail.com.  
+The related research paper describing this system is currently *in submission*.
